@@ -1,0 +1,8 @@
+fastapi[standard]
+pydantic
+sqlmodel
+mysqlclient
+pymysql
+mariadb 
+SQLAlchemy
+sqlalchemy-utils
