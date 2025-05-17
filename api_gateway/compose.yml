@@ -1,0 +1,9 @@
+services:
+  gateway:
+    image: nginx:stable-alpine3.21
+    # bind nginx.conf to /etc/nginx/nginx.conf
+    # open port for container port 8080
+
+  # start trey servers from Dockerfile
+  # set ROUTE name and MSG, both from environment variables
+  # routes: server1, server2, server3
